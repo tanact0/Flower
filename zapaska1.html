@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конструтор букетов</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        *{ margin: 0; } 
+    </style>
+    <script type="module" src="/main.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="block">
+            <div class="block1">
+                <div class="text1">Выберите какие цветы будут в букете</div>
+                <div class="flower1">Красная роза
+                    <input type="checkbox" id="check1">
+                </div>
+                <div class="flower1">Белая роза
+                    <input type="checkbox" id="check2">
+                </div>  
+            </div>
+            <div class="text">Добавьте цветы</div>
+            <button style="height: 25px; width: 60px;" id = "minus">-</button>
+            <button style="height: 25px; width: 60px;;" id="plus">+</button>
+        </div>
+        <div id="sceneMain"></div>
+    </div>
+    <select id="listAmountFlowers">
+        <option disabled selected>Выберите количество цветов</option>
+        <option>3</option>
+        <option value="London">5</option>
+        <option value="Berlin">7</option>
+        <option value="New York">9</option>
+        <option value="Frattamaggiore">11</option>
+    </select>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.content{
+    display: flex;
+}
+.block{
+    background-color: rgb(142, 91, 158);
+    font-size: 35px;
+}
+#minus{
+    margin-left: 30px;
+}
+button{
+    border-radius: 20px;
+}
+input{
+    height: 20px;
+    width: 20px;
+}
